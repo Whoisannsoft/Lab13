@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Administrador de Tareas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Administrador de Tareas</h1>
+
+<!-- Sección de creación de tarjetas -->
+<div id="task-creation">
+  <input type="text" id="task-input" placeholder="Escribe una tarea aquí..." />
+  <button id="publish-button">Publicar</button>
+</div>
+
+<!-- Secciones de las tareas -->
+<div id="task-board">
+  <div id="todo" class="task-list">
+    <h2>To Do</h2>
+  </div>
+  <div id="doing" class="task-list">
+    <h2>Doing</h2>
+  </div>
+  <div id="done" class="task-list">
+    <h2>Done</h2>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
